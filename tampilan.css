@@ -1,0 +1,52 @@
+body {
+    background-color: #0831c5;
+    color: white;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px black;
+}
+
+div.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px #05b2dc solid;
+    width: auto;
+    margin: auto;
+    padding: 0;
+}
+
+header.header {
+    background-color: #033860;
+    text-align: center;
+}
+
+div.sidebar,
+section.fiveDay {
+    background-color: #087ca7;
+}
+
+section.current {
+    background-color: #004385;
+}
+
+div.forecast {
+    justify-content: space-evenly;
+}
+
+article.searchHistory {
+    display: block;
+}
+
+/* #headerText,
+#searchTitle,
+#cityHeader,
+#fiveDayHeader {
+    text-shadow: 2px 2px black;
+} */
